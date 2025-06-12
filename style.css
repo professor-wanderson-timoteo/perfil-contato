@@ -90,3 +90,51 @@ ul li a:hover {
     border: 1.5px solid var(--text-color);
     color: var(--stroke-color);
 }
+
+ul li a ion-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+ul li a:hover ion-icon {
+    color: var(--stroke-color);
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 25px;
+    gap: 20px;
+}
+
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--stroke-color);
+
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover {
+    background: var(--highlight-color);
+}
+
+#footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+#footer a {
+    padding: 10px;
+}
+
+#footer a:hover {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
